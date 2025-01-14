@@ -1,0 +1,2 @@
+# test-sveltekit-monorepo
+sveltekitでモノレポのテスト

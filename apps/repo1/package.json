@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
+    "echo": "echo $npm_package_config_test_env_var",
     "dev": "vite dev",
     "build": "vite build",
     "preview": "vite preview",
@@ -13,6 +14,13 @@
     "lint": "prettier --check .",
     "test:unit": "vitest",
     "test": "npm run test:unit -- --run"
+  },
+  "imports": {
+    "#internal": {
+      "node": "../../internal/node/index.js",
+      "browser": "../../internal/browser/index.js",
+      "default": "../../internal/fallback/index.js"
+    }
   },
   "main": "index.js",
   "license": "MIT"

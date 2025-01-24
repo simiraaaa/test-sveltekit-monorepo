@@ -11,6 +11,9 @@ sveltekitでモノレポのテスト
 - jsconfig.json の include に common の lib の path を追加し、一度devコマンド叩いたあとに出てくる .svelte-kit/tsconfig.json の include をコピペする
 - yarn workspaces として、 `apps/*` と common を設定
 - commands は `vite dev` や デプロイなどのコマンドを楽にできるもの
+- .npmrc を root に移動
+- commands/lib/simple_command.js 実装
+- commands/dev.js 実装
 
 ## やったけどやらなくていいこと
 

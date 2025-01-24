@@ -6,8 +6,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "vite": "node  commands/test.js",
-    "echo": "node commands/env.js && echo $MODE"
+    "vite": "node commands/test.js",
+    "dev": "node commands/dev.js",
+    "echo": "node commands/env.js && echo $MODE",
+    "npm": "node commands/npm.js"
   },
   "author": "",
   "license": "ISC",
